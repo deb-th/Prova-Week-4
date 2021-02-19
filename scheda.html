@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Scheda Tecnica </title>
+        <meta name="viewport" content="width-device-width"/>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script src="script.js"></script>
+        <style>
+            td:nth-child(odd){ 
+                font-weight: bolder;
+                color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> LA RICERCA DELLA FELICITA' </h1>
+            <h2> Scheda Tecnica </h2>
+        </header>
+
+        <table> 
+            <tr>
+                <td> Durata </td>
+                <td> 120 min </td>
+            </tr>
+            <tr>
+                <td> Genere </td>
+                <td> Drammatico </td>
+            </tr>
+            <tr>
+                <td> Anno Uscita </td>
+                <td> 2006 </td>
+            </tr>
+            <tr>
+                <td> Regista </td>
+                <td> Gabriele Muccino </td>
+            </tr>
+        </table>
+        <button onclick="styleByTagTable()"> Read table </button>
+        <button onclick="styleByTagSection()"> Read article </button>
+        <article >
+            <section style="text-align: left;">
+                <figure>
+                    <figcaption>
+                        La ricerca della felicità è un film ispirato alla vita di Chris Gardner, imprenditore milionario, <br>
+                        che visse giorni di intensa povertà, con un figlio a carico e senza una casa dove poterlo crescere. <br>
+                    </figcaption>
+                    <img src="film.jpg" alt="immagine della locandina del film" height="20%" width="20%">
+                </figure>
+            </section>
+            <section>
+                <h3> TRAMA </h3>
+                <p>Nel 1981 a San Francisco, Chris Gardner cerca di sbarcare il lunario vendendo una partita di scanner <br>
+                    per rilevare la densità ossea, acquistata con i risparmi di una vita. Le vendite tuttavia scarseggiano: <br>
+                    molti medici ritengono il macchinario eccessivamente costoso e, tutto sommato, inutile. <br>
+                    La situazione economica si fa sempre più disperata per Chris e la sua famiglia, <br>
+                    composta dalla moglie Linda e dal figlio Christopher. <br>
+                </p>
+                <p>
+                    Chris entra come stagista alla Dean Witter, dove però non gli viene fornito alcuno stipendio: <br>
+                    deve affrontare un corso non pagato della durata di sei mesi, alla fine del quale solo un aspirante broker <br>
+                    dei venti partecipanti verrà assunto. <br>
+                    Compito degli stagisti è contattare quanti più clienti possibile e "chiudere" il maggior numero di contratti. <br>
+                </p>
+            </section>               
+            <section style="text-align: right;">
+                <figure> 
+                    <img src="smith.jpg" alt="immagine tratta da una scena del film con padre e figlio" height="50%" width="50%"/>                
+                </figure>
+            </section>
+        </article>  
+
+        <button type = "button"> <a href="index.html"> Home </a> </button>
+
+        <footer>
+            <p> Sito realizzato da Deborah Tucci &copy; </p>
+        </footer>
+    </body>
+</html>

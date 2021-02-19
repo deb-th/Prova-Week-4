@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> News </title>
+        <meta name="viewport" content="width-device-width"/>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1> LA RICERCA DELLA FELICITA' </h1>
+            <h2 style="text-align: center;"> Newsletter </h2>
+        </header>
+
+        <form>
+            <div>
+                <label id = "storageKey"> Nome </label> 
+                <input type="text" onchange="able()" id = "storageValue"/>
+            </div>
+            <br> <br>
+            <div>
+                <input type="submit" onclick = "subscribe()" value="Subscribe" disabled id = "sub"/>
+                <input type="submit" onclick = "sub()" value="Unsubscribe" disabled style="display: none;" id = "unsub"/>
+            </div>
+        </form>
+        <br> <br>
+        <button type = "button"> <a href="index.html"> Home </a> </button>
+
+        <footer>
+            <p> Sito realizzato da Deborah Tucci &copy; </p>
+        </footer>
+    </body>
+</html>
